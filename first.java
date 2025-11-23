@@ -9,7 +9,7 @@ class first{
         // type promotion
             int result = a*b;
             System.out.println(result);
-
+            
     }
 }
 
