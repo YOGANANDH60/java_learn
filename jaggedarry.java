@@ -27,7 +27,7 @@ public class jaggedarry {
            System.out.println();
         }
 
-        System.out.println("------------------------");
+        System.out.println("------------------------e");
         // mutili dimenaionl array
 
         int nums[][][]=new int[3][4][2]; 
