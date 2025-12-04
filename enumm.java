@@ -28,8 +28,7 @@ public class enumm {
 
         lap l= lap.hp;
         System.out.println(l+":"+l.getI());
-        System.out.println(l+":"+l.getI());
-        System.out.println(l.getI());
+
 
 
 
