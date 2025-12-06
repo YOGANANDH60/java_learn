@@ -9,7 +9,7 @@ class yogaException extends Exception {
 public class customeexception {
      public static void main(String[] args) {
         int n = 20;
-        int k = 18;
+        int k = 17;
         try{
             int j = k/n;
             System.out.println(j);//this is on arithmatic error
