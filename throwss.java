@@ -1,16 +1,18 @@
-// handling the exception during compile time or runtime or logic
-// it's simply handil the error without affect the program flow 
+// thorw is used to throw the exception to the catch block 
 
-public class excepti {
+public class throwss {
     public static void main(String[] args) {
         int n = 20;
         int k = 18;
         try{
             int j = k/n;
-            System.out.println(j);//this is on arithmatic error 
+            System.out.println(j);//this is on arithmatic error
+            if (j==0){
+                throw new ArithmeticException("this divisible return zero");
+            } 
         }
         catch (ArithmeticException e){
-            System.out.println("divided by zero not posible");
+            System.out.println("divided by zero not posible"+e);
         }
         catch (Exception e){
             System.out.println("some error.."+e);
