@@ -9,6 +9,9 @@ public class excepti {
             int j = k/n;
             System.out.println(j);//this is on arithmatic error 
         }
+        catch (ArithmeticException e){
+            System.out.println("divided by zero not posible");
+        }
         catch (Exception e){
             System.out.println("some error.."+e);
         }
