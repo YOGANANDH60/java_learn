@@ -15,7 +15,7 @@ public class readintput {
 
         int a = sc.nextInt();
         long b = sc.nextLong();
-        BigInteger c = sc.nextBigInteger();
+        BigInteger c = sc.nextBigInteger(); //for acces this we can import java.math.biginteger
         System.out.print(a);
         System.out.print(" ");
         System.out.print(b);
