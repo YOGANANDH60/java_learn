@@ -1,7 +1,7 @@
 public class binary {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6};
-        int target = 5;
+        int[] arr = {1,3,5,6};
+        int target = 7;
         int s = 0;
         int e = arr.length -1;
         
@@ -22,7 +22,12 @@ public class binary {
          if (target2 < arr[m] ) {
             return search(arr, s, m-1, target2);
          }
-
-        return search(arr, m+1, e, target2);
+         else if (target2 > arr[m]) {
+            return search(arr, m+1, e, target2);
+        }
+        else {
+            int l = m+1;
+            return l;
+        }
     }
 }
