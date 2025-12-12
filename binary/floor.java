@@ -15,6 +15,10 @@ public class floor {
         int s = 0;
         int e = arr.length -1;
 
+        if(target2 > e){
+            return -1;
+        }
+
         while (s<=e) {
             int m = s+(e-s)/2;
 
