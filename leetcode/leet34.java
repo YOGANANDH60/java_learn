@@ -16,14 +16,17 @@ public class leet34 {
         System.out.println(Arrays.toString(result));
     }
 
+
     public int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
 
         ans[0] = search(nums, target, true);   // first index
         ans[1] = search(nums, target, false);  // last index
 
+        
         return ans;
     }
+
 
     int search(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
