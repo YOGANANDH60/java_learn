@@ -2,6 +2,7 @@ package binary;
 
 
 // this is for find the element in the infinit array we do not know the array size 
+// in this if we search 23 it shoow out  of bound bechause it not infinity array it work only work in infinity array
 public class infint {
     public static void main(String[] args) {
         int[] arr = {1,3,5,7,9,11,13,15,17,19,21,23,25};
