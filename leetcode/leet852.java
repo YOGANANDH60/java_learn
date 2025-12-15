@@ -1,4 +1,4 @@
-package leetcode;
+
 // binary search
 public class leet852 {
     public int peakIndexInMountainArray(int[] arr) {

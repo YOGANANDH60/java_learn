@@ -1,4 +1,4 @@
-package leetcode;
+
 
 public class leet1295{
     public int findNumbers(int[] nums) {
