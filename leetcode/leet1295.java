@@ -13,6 +13,7 @@ public class leet1295{
             if(even(num)){
                 count++;
             }
+            
         }
         return count;
 
