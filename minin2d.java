@@ -21,6 +21,7 @@ public class minin2d {
     //         }
     //     }
     //     return False;
+    // this is an aslo the leetcode problem above
     static int[] search(int[][] arr, int t) {
         for(int row =0; row<arr.length;row++){
             for(int col = 0 ; col<arr[row].length;col++){
