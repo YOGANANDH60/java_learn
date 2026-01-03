@@ -12,6 +12,7 @@ public class excepti {
         catch (ArithmeticException e){
             System.out.println("divided by zero not posible");
         }
+        // it handles the other exception 
         catch (Exception e){
             System.out.println("some error.."+e);
         }
