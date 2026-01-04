@@ -12,6 +12,7 @@ class student implements Comparable<student>{
     public student(int age, String name) {
         this.age = age;
         this.name = name;
+        
     }
 
     public String toString() {
