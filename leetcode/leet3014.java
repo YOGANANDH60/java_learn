@@ -1,9 +1,4 @@
-
-//     public static void main(String[] args) {
-//         // this leed is find the how many push we need  to find that word like old mobile 
-//     }
-// }
-
+         // this leed is find the how many push we need  to find that word like old mobile 
 
 import java.util.*;
 
