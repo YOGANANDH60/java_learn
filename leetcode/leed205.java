@@ -10,7 +10,7 @@ public class leed205 {
         HashSet<String> a = new HashSet<>();
 
         for(int i =0;i<s.length();i++){
-            
+            // wirte the code for if the isomarpic true
         }
 
         return false;
