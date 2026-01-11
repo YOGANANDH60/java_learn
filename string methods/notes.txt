@@ -1,0 +1,14 @@
+// in string we can t modify the once it's declared an initialized 
+// for ex:
+//     String a = "yoga";
+//     String b = "yoga";
+// if(a==b) => true
+//     this two pointing to the same object 
+
+//if we want to create sperate object we use "new" key world
+// for ex:
+//     String a = new String("yoga");
+//     String a = new String("yoga");
+// if(a==b) => false
+
+
