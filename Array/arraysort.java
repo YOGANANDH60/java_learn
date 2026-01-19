@@ -6,6 +6,7 @@ public class arraysort {
 
     sort(arr);
     System.out.println(Arrays.toString(arr));
+
    }
 
    static void sort(int[] arr) {
